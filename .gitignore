@@ -1,0 +1,31 @@
+# Credenciales y configuracion local
+.env
+*.env
+!.env.example
+
+# Sesiones del navegador (equivalen a una contraseña)
+.pw_*/
+*storage_state*.json
+
+# Logs (pueden contener datos operativos)
+logs_orquestador/
+*.log
+
+# Datos descargados o generados
+*.xlsx
+*.xlsm
+*.xls
+*.csv
+*.txt
+!requirements.txt
+debug_*.png
+debug_*.html
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Script privado opcional (no forma parte del repositorio publico)
+descarga_directa.py
