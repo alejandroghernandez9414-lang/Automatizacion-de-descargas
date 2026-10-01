@@ -1,0 +1,6 @@
+schedule
+requests
+pandas
+openpyxl
+playwright
+python-dotenv
